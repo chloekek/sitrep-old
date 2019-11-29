@@ -1,0 +1,18 @@
+=head1 NAME
+
+sitrepcomp - Sitrep components
+
+=head1 DESCRIPTION
+
+The Sitrep system consists of multiple components. A component is not
+necessarily an executable, but some unit of code that can be reasoned about
+reasonably independently.
+
+The B<collector component> receives events and forwards them to the
+synthesizer and the archiver.
+
+The B<synthesizer component> receives events and generates akoustic and
+visual signals from them, which are then broadcast to any listeners or
+viewers.
+
+The B<archiver component> receives events and stores them on disk.
